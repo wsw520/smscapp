@@ -1,0 +1,70 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+#ad_3v { display: none; }
+
+html, body { width: 100%; height: 100%; }
+
+a { text-decoration: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: transparent; outline: none; }
+
+ul { list-style: none; }
+
+.ys { color: red !important; }
+
+.zflys { color: #2196F3 !important; font-size: 0.9rem !important; }
+
+#container { display: flex; height: 100%; flex-direction: column; }
+#container header { background: #2196F3; width: 100%; height: 2rem; }
+#container header ul { display: flex; justify-content: space-between; line-height: 2rem; }
+#container header ul li { color: #FFF; font-family: "微软雅黑"; font-weight: bold; }
+#container header ul li:nth-child(1) { margin-left: 0.5rem; }
+#container header ul li:nth-child(3) { margin-right: 0.5rem; line-height: 1.2rem; font-size: 1.5rem; }
+#container header ul li span { display: inline-block; width: 0.5rem; height: 0.5rem; border: 0.1rem solid #fff; border-bottom: none; border-right: none; transform: rotate(-45deg); background: transparent !important; }
+#container section { width: 100%; height: 100%; overflow: auto; }
+#container section nav { display: flex; justify-content: center; background: #2196F3; width: 100%; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+#container section nav input { border-radius: 1rem; border: none; outline: none; color: #8C8C8C; text-align: center; height: 1rem; width: 95%; font-size: 0.5rem; }
+#container section .swiper-wrapper { height: 8rem; }
+#container section .swiper-wrapper img { width: 100%; height: 100%; }
+#container section .dh { background: #fff; height: 4.5rem; }
+#container section .dh ul { display: flex; justify-content: space-around; text-align: center; padding-top: 0.9rem; }
+#container section .dh ul li { width: 100%; }
+#container section .dh ul li img { height: 1.5rem; }
+#container section .dh ul li span { display: block; color: #999999; font-size: 0.6rem; }
+#container section .nr1 { background: #ebebeb; padding-top: 0.41rem; height: 4.8rem; }
+#container section .nr1 ul { display: flex; justify-content: space-around; }
+#container section .nr1 ul li { width: 100%; }
+#container section .nr1 ul li img { width: 100%; height: 4rem; }
+#container section .nr1 ul li:nth-child(1) { margin-right: 0.1rem; }
+#container section .nr2 ul li img { width: 100%; height: 6.6rem; }
+#container section .nr3 ul { display: flex; justify-content: space-around; }
+#container section .nr3 ul:nth-child(4) li img { height: 5rem; }
+#container section .nr3 ul:nth-child(6) li img { height: 5rem; }
+#container section .nr3 ul li { width: 100%; }
+#container section .nr3 ul li img { width: 100%; }
+#container section .nr3 ul li:nth-child(1) { margin-right: 0.1rem; padding-bottom: 0.18rem; }
+#container section .nr3 ul li p { font-size: 0.7rem; }
+#container section .nr3 ul li .p2 { color: #ccc; font-size: 0.5rem; white-space: nowrap; }
+#container section .nr3 ul li .p3 { color: red; }
+#container section .nr3 ul li div { margin-top: 0.8rem; margin-bottom: 0.8rem; margin-left: 1rem; font-family: "微软雅黑"; }
+#container section .nr4 { background: #ebebeb; padding-top: 0.4rem; }
+#container section .nr4 ul li { width: 100%; }
+#container section .nr4 ul li img { width: 100%; height: 6.6rem; }
+#container section .gwc { text-align: center; color: #CCC; margin-top: 20%; }
+#container section .wode li { background: #fff; line-height: 2.5rem; margin-top: 0.5rem; margin-bottom: 0.5rem; padding-left: 0.5rem; }
+#container section .fenlei { display: flex; }
+#container section .fenlei .zfl { height: 48rem; text-align: center; line-height: 2.5rem; flex: 2.5; border-right: 1px solid #00BCD4; }
+#container section .fenlei .zfl p { font-size: 0.8rem; }
+#container section .fenlei .yfl { height: 100vh; flex: 10; }
+#container section .fenlei .yfl .feileibiao li .sm { text-align: center; padding: 1rem; font-size: 0.8rem; }
+#container section .fenlei .yfl .feileibiao li img { max-width: 3.3rem; }
+#container section .fenlei .yfl .feileibiao li ul { display: flex; -webkit-justify-content: space-evenly; -moz-justify-content: space-evenly; justify-content: space-evenly; justify-content: space-around; text-align: center; padding-top: 0.5rem; }
+#container section .fenlei .yfl .feileibiao li ul li p { font-size: 0.5rem; }
+#container section .fenlei .yfl .feileibiao li:nth-child(2) .sj { text-align: center; margin: 1rem; font-size: 0.8rem; }
+#container section .fenlei .yfl .feileibiao li:nth-child(2) ul img { max-width: 4.8rem; max-height: 3.5rem; }
+#container section .fenlei .yfl .feileibiao li:nth-child(2) ul p { font-size: 0.5rem; }
+#container footer { width: 100%; background: #2196F3; }
+#container footer ul { display: flex; justify-content: space-around; text-align: center; }
+#container footer ul li { width: 100%; }
+#container footer ul li span { display: block; font-size: 0.5rem; color: #fff; }
+
+/*# sourceMappingURL=mi.css.map */

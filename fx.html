@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>发现</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+		<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+		<script src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/mi.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/mi.css"/>
+		<link rel="stylesheet" type="text/css" href="font/font.css"/>
+		<style>
+             .imgs{text-align: center;min-width: 100%;
+             }
+             p{text-indent: 2em;}
+		</style>
+		<script src="js/jquery-3.2.1.js"></script>
+	</head>
+	<body>
+	<script>
+		$.ajax({
+          type: "get",
+          url: "http://api.dagoogle.cn/news/get-news?",
+          dataType: "jsonp",
+          success: function(data) {
+//           console.log(data)
+             var kk=data.data.text_image0;
+             for(var i=0;i<data.data.length;i++){
+                   var z=$("<p>"+data.data[i].digest+'。'+"</p>");
+                   var z1=$("<p>"+data.data[i].title+'。'+"</p>");
+                   var y=$("<img class=\"imgs\" src='"+data.data[i].text_image0+"'/>");
+                   var y1=$("<img class=\"imgs\" src='"+data.data[i].text_image1+"'/>");
+                   $("#xw").append(z,y,z1,y1);
+          }
+
+          }
+})
+	</script>
+<div id="container">
+	<header>
+		<ul>
+			<li><a href="index.html"><span class="fhbtn"></span></a></li>
+			<li>新闻信息</li>
+			<li>...</li>
+		</ul>
+	</header>
+	<section>
+		<div id="xw">
+		</div>
+	</section>
+	<footer>
+		<ul class="footer1">
+			<li><a href="index.html"><i class="iconfont">&#xe604;</i><span>首页</span></a></li>
+			<li><a href="fl.html"><i class="iconfont iconfont2">&#xe6ee;</i><span>分类</span></a></li>
+			<li><a href="fx.html"><i class="iconfont ys">&#xe608;</i><span class="ys">发现</span></a></li>
+			<li><a href="gwc.html"><i class="iconfont">&#xe502;</i><span>购物车</span></a></li>
+			<li><a href="my.html"><i class="iconfont">&#xe62e;</i><span>我的</span></a></li>
+		</ul>
+	</footer>
+</div>
+	</body>
+</html>
