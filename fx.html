@@ -23,7 +23,7 @@
           url: "http://api.dagoogle.cn/news/get-news?",
           dataType: "jsonp",
           success: function(data) {
-//           console.log(data)
+          console.log(data)
              var kk=data.data.text_image0;
              for(var i=0;i<data.data.length;i++){
                    var z=$("<p>"+data.data[i].digest+'。'+"</p>");
@@ -33,7 +33,10 @@
                    $("#xw").append(z,y,z1,y1);
           }
 
-          }
+          },
+          error:function(data){
+			 	alert("数据获取失败");
+			 }
 })
 	</script>
 <div id="container">

@@ -1,3 +1,4 @@
+@charset "utf-8";
 *{margin: 0;padding: 0;box-sizing: border-box;}
 #ad_3v{display: none;}
 html,body{
@@ -248,7 +249,26 @@ ul{list-style: none;}
     }
     
 }
-
+//点击img弹框
+#tsk{      border:3px solid #ccc;
+           border-radius: 5px;
+           background: #fff;
+           font-size: 1rem;
+           width: 7rem;height: 5rem;
+           position: absolute;top:50%;left: 50%;
+           transform: translate(-50%,-50%);
+           z-index: 999;
+}
+#tsk h6{  height: 1.5rem;
+          line-height: 1.5rem;
+          background: #ddd;
+          text-indent: 5px;
+          font-size: 0.8rem;
+          color: red;
+}
+#tsk p{padding: 5px;
+       font-size: 0.8rem;
+}
 
 
 

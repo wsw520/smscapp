@@ -19,5 +19,9 @@ $(function(){
 	    	 var z=-h*index;
 	    	 $(".feileibiao").stop().animate({"margin-top":z+"px"},200);
 	    })
+        //点击img
+        $("img").click(function(){
+            $("#tsk").show().delay(2000).hide(1);
+        })
 	    
 })
