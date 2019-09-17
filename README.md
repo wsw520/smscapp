@@ -1,2 +1,2 @@
 # smscapp
-数码商城APP
+数码商城WebApp
